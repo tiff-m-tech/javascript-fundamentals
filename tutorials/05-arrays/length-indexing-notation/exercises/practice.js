@@ -13,9 +13,6 @@ let coordinates = [120, 500, 990];
     TODO: Change the second item (index 1) in 'coordinates' 
     from 500 to 750, then print the array to see the change.
 */
-coordinates[1] = 750;
-console.log(coordinates); // [120, 750, 990]
-
 
 /** EXERCISE 2: DATA INSPECTION **/
 
@@ -26,9 +23,6 @@ let planets = ["Mercury", "Venus", "Earth", "Mars"];
     the value of the third item in the 'planets' array,
     then print the array to see the change.
 */
-const thirdPlanet = planets[2];
-console.log(thirdPlanet); // Earth
-
 
 /** EXERCISE 3: SHIP REPAIRS **/
 
@@ -40,8 +34,6 @@ let systemStatus = [true, true, true, true];
     using the .length property (don't hardcode the index!),
     then print the array to see the change.
 */
-
-
 
 /** EXERCISE 4: ARRAY GROWTH **/
 
