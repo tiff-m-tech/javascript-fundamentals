@@ -19,6 +19,45 @@ I am currently creating a **completely new** volume of demos and practice exerci
 
 ---
 
+### HOW TO FORK AND CLONE
+
+#### CREATE YOUR OWN COPY
+1. FORK it to your own GitHub account
+1. COPY the link from your new repo on GitHub
+1. CLONE it to your local machine. Example:
+
+```git clone https://github.com/YourUsername/javascript-fundamentals```
+
+#### PRACTICE IN YOUR OWN BRANCHES
+If you want to update your forked repository from my parent repository when I add or change things to mine in the future, there are instructions below this section.
+It will go much easier if you don't ever change the code in `main`. Instead, do the following:
+1. From `main`, use the command `git checkout -b new-branch-name` to create your own branch for practicing (example: `functions-practice`).
+1. Practice as much as you'd like in your new branch, making commits as you add code.
+1. When you are ready to work on something different in another new branch, use the command `git checkout main` to return to `main` and then you can repeat the two steps above.
+
+### HOW TO UPDATE YOUR REPO AFTER I'VE UPDATED MINE
+
+**Set the upstream link:**
+1. On your local machine, make sure you are in the correct directory in the terminal.
+1. Use the command `git remote add upstream https://github.com/CodeWithCarrie/javascript-fundamentals`
+
+You now have a direct link to my original repo! 
+
+Use the command `git remote -v` to verify that you have linked to both `origin` (your forked repo) and `upstream` (my original repo)
+
+**Update your repo anytime I make changes in the future:**
+1. On your local machine, make sure you are in the correct directory in the terminal.
+1. If you have any uncommitted changes, **stage** and **commit** them.
+1. Make sure you are in the branch you wish to update (e.g. `main`)
+1. Use the command `git fetch upstream` so your local repo has knowledge of changes I made in my repo
+1. Use the command `git rebase upstream/main` to sync your repo
+
+**Check to see which branches you already have:**
+1. You can use the command `git branch` anytime to see what local branches you have
+1. The command `git branch -r` will show you branches that exist on GitHub (after you've fetched that knowledge)
+
+---
+
 ## DEMOS & PRACTICE EXERCISES
 
 Each topic will have at least one set of starter code and solution code corresponding to a video on the [@CodeWithCarrie](https://youtube.com/@CodeWithCarrie) YouTube channel, and most topics will include hands-on practice exercises as well. Use the links in the tables below for quick peeks at the code. You can fork your own copy of this repository for practice on your local machine. While individual links are available below for each video, you can also start with the [full playlist](https://www.youtube.com/playlist?list=PLvcPeTeqi37QYL9fnn4Y1ZJdsyFTHJU7D).
@@ -140,10 +179,10 @@ _Coming soon!_
 | Introduction to Objects                 | [objects-intro](/tutorials/08-objects/objects-intro/)                                   | [Demo](https://youtu.be/3whafTBfg8U) |   5:42 |
 | Accessing & Modifying Object Properties | [accessing-modifying-properties](/tutorials/08-objects/accessing-modifying-properties/) | [Demo](https://youtu.be/Eu6IVzAOcdg) |   6:21 |
 | The Math Module & The Spread Operator   | [math-module](/tutorials/08-objects/math-module/)                                       | [Demo](https://youtu.be/Jf0QjQJRft0) |   7:24 |
-| Object Methods & Context                | []()                                                                                    | _Coming soon!_                       |        |
-| Complex Objects & Mutation              | []()                                                                                    | _Coming soon!_                       |        |
-| Looping Over Key/Value Pairs            | []()                                                                                    | _Coming soon!_                       |        |
-| Looping Over Arrays of Objects          | []()                                                                                    | _Coming soon!_                       |        |
+| Object Methods & Context                | _Coming soon!_                                                                          | _Coming soon!_                       |        |
+| Complex Objects & Mutation              | _Coming soon!_                                                                          | _Coming soon!_                       |        |
+| Looping Over Key/Value Pairs            | [looping-over-key-value-pairs](/tutorials/08-objects/looping-over-key-value-pairs/)     | _Coming soon!_                       |        |
+| Looping Over Arrays of Objects          | [looping-over-arrays-of-objects](/tutorials/08-objects/looping-over-arrays-of-objects/) | _Coming soon!_                       |        |
 |                                         |                                                                                         | **TOTAL**                            |        |
 
 ---
