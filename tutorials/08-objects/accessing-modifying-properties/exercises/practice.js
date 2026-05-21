@@ -14,14 +14,19 @@ const communicationSpecs = {
 
 // TODO: Update the 'frequencyGhz' to 9.1 using dot notation.
 
+communicationSpecs.frequencyGhz = 9.1
+
 // TODO: Update the 'encryption-protocol' to "RSA-4096" using bracket notation.
+
+communicationSpecs["encryption-protocol"] = "RSA-4096"
 
 // TODO: Log a full statement confirming the update using both bracket notation and dot notation.
 
+console.log(`Confirming that the following were updated: frequencyGhz: ${communicationSpecs.frequencyGhz}, encryption-protocol: ${communicationSpecs["encryption-protocol"]}`)
 
 /** EXERCISE 2: POPULATING ENEMY DATA **/
 
-const scanningDrone = {};
+// const scanningDrone = {};
 
 /*
     TODO: The drone scanned an unidentified object. Add three keys to the 
@@ -32,6 +37,14 @@ const scanningDrone = {};
     
     Then, log a full statement using some of the properties of the object.
 */
+
+const scanningDrone = {
+    classification: "Frigate",
+    weaponCount: 12,
+    "shield-active": false
+}
+
+console.log(`The drone scanning the area currently has ${scanningDrone.weaponCount} weapons and is classified as a ${scanningDrone.classification}.  Its shield is currently on: ${scanningDrone["shield-active"]}`)
 
 /** EXERCISE 3: THE TERMINAL SELECTOR **/
 
@@ -47,3 +60,5 @@ let userTerminalQuery = "oxygenLevel";
     TODO: Use the 'userTerminalQuery' variable to dynamically log the correct 
     stat from the 'airlockControls' object using bracket notation.
 */
+
+console.log(`Stat: ${airlockControls[userTerminalQuery]}`)

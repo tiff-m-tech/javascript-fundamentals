@@ -20,6 +20,15 @@
     Log the object to the console.
 */
 
+let piolotProfile = {
+    name: "Tiffany",
+    rank: "pilot",
+    flightHours: 43875,
+    isActive: true
+}
+
+console.log(piolotProfile)
+
 /** EXERCISE 2: MATERIAL CONFIGURATION **/
 
 /*
@@ -27,6 +36,12 @@
     - made of a material that is a titanium alloy
     - has a thickness of 15 centimeters
 */
+
+let hullSpecs = {
+    material: "titanium alloy",
+    thickness: "15cm"
+}
+console.log(hullSpecs)
 
 /** EXERCISE 3: REFERENCE CLONING CHECK **/
 
@@ -39,5 +54,8 @@ const shadowCore = originalCore;
     
     Then uncomment the two lines below and observe the output.
 */
-// shadowCore.stabilityScore = 45;
-// console.log(`Original Core Stability: ${originalCore.stabilityScore}`);
+
+// They will update to match each other since they are copies.
+
+shadowCore.stabilityScore = 45;
+console.log(`Original Core Stability: ${originalCore.stabilityScore}`);

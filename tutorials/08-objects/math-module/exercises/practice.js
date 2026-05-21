@@ -16,6 +16,17 @@ let fineAdjustmentVector = -14.62;
     Store the final result in a constant named 'CLEAN_STEERING_ANGLE' and log it.
 */
 
+let findAbsolute = Math.abs(fineAdjustmentVector)
+// console.log(findAbsolute)
+
+let findNearestInterger = Math.round(findAbsolute) 
+// console.log(findNearestInterger)
+
+const CLEAN_STEERING_ANGLE = findNearestInterger
+
+
+console.log(`Clean Steering Angle: ${CLEAN_STEERING_ANGLE}`);
+
 /** EXERCISE 2: SECTOR RANGE SCANNER **/
 
 const cargoBayTemperatures = [18, 22, 14, 31, 19, 25];
@@ -26,6 +37,11 @@ const cargoBayTemperatures = [18, 22, 14, 31, 19, 25];
     Store it in a variable named 'highestTemp' and log it using a template literal.
 */
 
+let highestTemp = Math.max(...cargoBayTemperatures)
+
+console.log(`Highest Temp: ${highestTemp}`)
+
+
 /** EXERCISE 3: FUEL POD BALANCER **/
 
 const fuelPodWeights = [450, 412, 498, 380];
@@ -35,3 +51,9 @@ const fuelPodWeights = [450, 412, 498, 380];
     Subtract that lowest weight value from the highest possible capacity constant (500).
     Log how many metric tons are needed to top off that emptiest tank.
 */
+
+let lightestFulePod = Math.min(...fuelPodWeights)
+
+let tonsNeededToTopOff = 500 - lightestFulePod
+
+console.log(`Tons Needed to Top Off: ${tonsNeededToTopOff}`)
