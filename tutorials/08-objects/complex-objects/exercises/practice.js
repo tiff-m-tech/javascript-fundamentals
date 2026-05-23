@@ -20,6 +20,8 @@ const stationHub = {
     "Security at [stationName] is enforced by [governingBody]. Maintenance active at [second dock entry]."
 */
 
+console.log(`Security at ${stationHub.stationName} is enforced by ${stationHub.logistics.governingBody}. Maintenance active at ${stationHub.logistics.docks[1]}.`)
+
 /** EXERCISE 2: SHALLOW CLONE VERIFICATION **/
 
 const originalThrusterData = {
@@ -29,12 +31,21 @@ const originalThrusterData = {
 
 // TODO: Create a shallow copy of 'originalThrusterData' named 'clonedThrusterData' using the spread operator.
 
+let clonedThrusterData = {...originalThrusterData}
+
+
 // TODO: Update 'clonedThrusterData.readouts.corePsi' to 500.
+
+clonedThrusterData.readouts.corePsi = 500
 
 /*
     TODO: Predict what originalThrusterData.readouts.corePsi will log.
     Uncomment the line below to check.
 */
+
+// Since we made a shallow copy and the corePsi is nested I assume that the original object will be changed.
+
+console.log(originalThrusterData)
 
 /** EXERCISE 3: LOGISTICS ENVELOPE DUPLICATION **/
 
@@ -49,3 +60,10 @@ const secureVault = {
     Push a new code string ("NEBULA") onto the deep copy's 'clearanceCodes' array.
     Log both arrays to verify they are completely decoupled.
 */
+
+let deepVaultClone = JSON.parse(JSON.stringify(secureVault))
+
+deepVaultClone.clearanceCodes.push('NEBULA')
+
+console.log(secureVault)
+console.log(deepVaultClone)
