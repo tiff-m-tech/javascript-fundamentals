@@ -40,6 +40,9 @@ It will go much easier if you don't ever change the code in `main`. Instead, do 
 
 ### HOW TO UPDATE YOUR REPO AFTER I'VE UPDATED MINE
 
+> [!WARNING]
+> I am still adding new content regularly, so you will likely have to sync your forked repo with mine in order to pull that content into your own.
+
 **Set the upstream link:**
 
 1. On your local machine, make sure you are in the correct directory in the terminal.
