@@ -15,6 +15,9 @@ const reactorTemperatures = [2100, 2850, 3100, 1950, 3400];
     Capture it in a variable named 'criticalTemp' and log it.
 */
 
+let criticalTemp = reactorTemperatures.find(temp => temp > 3000)
+console.log(criticalTemp)
+
 /** EXERCISE 2: TRACKING COOLDOWN SCHEDULERS **/
 
 const lifeSupportSystems = [
@@ -29,6 +32,10 @@ const lifeSupportSystems = [
     Capture the matching index number inside a constant named 'failedSystemIndex' and log it.
 */
 
+const failedSystemIndex = lifeSupportSystems.findIndex(num => num.oxygenOutputPercent < 20)
+console.log(`Index: ${failedSystemIndex}`)
+
+
 /** EXERCISE 3: COMBAT READINESS AUDIT **/
 
 const gunshipMunitionsLocker = [
@@ -38,9 +45,13 @@ const gunshipMunitionsLocker = [
 	{ bayCode: "Dorsal-Aux", missileCount: 0, readyToFire: true },
 ];
 
+
 /*
     TODO: Use '.filter()' to query the 'gunshipMunitionsLocker' array collection.
     Extract all ammunition bays that have a 'missileCount' greater than 0 AND are marked 
     as 'readyToFire: true'.
     Store the sub-array results in a constant named 'activeFireBays' and log it to the terminal.
 */
+
+const activeFireBays = gunshipMunitionsLocker.filter(locker => locker.missileCount > 0 && locker.readyToFire === true)
+console.log(activeFireBays)

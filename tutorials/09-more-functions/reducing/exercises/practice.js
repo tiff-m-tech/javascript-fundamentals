@@ -15,6 +15,12 @@ const torpedoCrateWeightsKg = [120, 150, 95, 110];
     Capture the final calculation in a variable named 'totalWeaponsMass' and log it.
 */
 
+const totalWeaponsMass = torpedoCrateWeightsKg.reduce((accumulator, num) => {
+    return accumulator + num
+}, 0)
+
+console.log(totalWeaponsMass)
+
 /** EXERCISE 2: SECTOR SURVEY POPULATION SUMMARY **/
 
 const sectorHabitationHubs = [
@@ -29,3 +35,9 @@ const sectorHabitationHubs = [
     population across the entire sector.
     Store the final number in a constant named 'totalSectorPopulation' and log it.
 */
+
+const totalSectorPopulation = sectorHabitationHubs.reduceRight((accumulator, hub) => {
+return accumulator + hub.populationCount
+
+}, 0)
+console.log(totalSectorPopulation)
