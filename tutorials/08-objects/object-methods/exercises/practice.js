@@ -37,7 +37,6 @@ communicationArray.broadcast()
         */
 
 const engineeringDriveCore = {
-<<<<<<< HEAD
     coreName: "Epstein Drive Core Mk4",
     currentTemperature: 2850,
     maxSafeTemperature: 3000,
@@ -45,21 +44,6 @@ const engineeringDriveCore = {
         let margin = this.maxSafeTemperature - this.currentTemperature
         return `The ${this.coreName} has ${margin}°C remaining before structural failure.`
     }
-=======
-	coreName: "Epstein Drive Core Mk4",
-	currentTemperature: 2850,
-	maxSafeTemperature: 3000,
-
-	// TODO: Complete the method inline.
-	checkThermalSafety: function () {
-		/* 
-            Calculate the structural margin remaining before meltdown by subtracting 
-            this object's current temperature from its maximum safe temperature.
-            Return a template literal reading: 
-            "The [coreName] has [margin]°C remaining before structural failure."
-        */
-	},
->>>>>>> 6868a18a3670fc834beef2d1e89b6dd7fe301914
 };
 
 // TODO: Test the method by calling it on the object.
@@ -75,7 +59,6 @@ console.log(engineeringDriveCore.checkThermalSafety());
     */
 
 const fuelPod = {
-<<<<<<< HEAD
     podIdentifier: "Pod Gamma",
     currentReserveTons: 120,
     maxCapacityTons: 500,
@@ -87,21 +70,6 @@ const fuelPod = {
         }
 
     }
-=======
-	podIdentifier: "Pod Gamma",
-	currentReserveTons: 120,
-	maxCapacityTons: 500,
-
-	// TODO: Complete the refueling method below.
-	addFuel: function (amount) {
-		/*
-            Check if adding the 'amount' to 'this.currentReserveTons' exceeds 'this.maxCapacityTons'.
-            - If it does: log an alert and do not add the fuel.
-            - If it fits: add the amount to 'this.currentReserveTons' and log the success.
-            Use template literals for both logs.
-        */
-	},
->>>>>>> 6868a18a3670fc834beef2d1e89b6dd7fe301914
 };
 
 // TODO: Test the method with a value that should fail, then again with one that should succeed.
