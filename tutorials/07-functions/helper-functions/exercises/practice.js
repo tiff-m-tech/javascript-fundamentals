@@ -7,10 +7,10 @@
 
 /** EXERCISE 1: THE CARGO DISTRIBUTOR **/
 
-// TODO: Create a helper function named 'calculateMassInKg'. It should take 
+// TODO: Create a helper function named 'calculateMassInKg'. It should take
 // a parameter 'metricTons' and return that value multiplied by 1000.
 
-// TODO: Complete the main function below. Use your 'calculateMassInKg' helper 
+// TODO: Complete the main function below. Use your 'calculateMassInKg' helper
 // inside the loop to calculate each pod's weight in kilograms.
 
 let cargoMass = [5, 12, 3.5];
@@ -34,14 +34,18 @@ function processLogisticsManifest(cargoPodsArray) {
 
 // TODO: Call your main function and test it with the cargoMass array
 
+<<<<<<< HEAD
 processLogisticsManifest(cargoMass)
 
 
+=======
+>>>>>>> 6868a18a3670fc834beef2d1e89b6dd7fe301914
 /** EXERCISE 2: COMMUNICATION SCRUBBER **/
 
-// TODO: Create a helper function named 'sanitizeInput'. It should take a string 
+// TODO: Create a helper function named 'sanitizeInput'. It should take a string
 // parameter 'text', remove leading/trailing spaces, and convert it to lowercase.
 
+<<<<<<< HEAD
 function sanitizeInput(text) {
 	let trimmedText = text.trim()
 	console.log(trimmedText)
@@ -55,6 +59,9 @@ function sanitizeInput(text) {
 sanitizeInput("  Sample Text  ")
 
 // TODO: Complete the main function below. Use your 'sanitizeInput' helper to 
+=======
+// TODO: Complete the main function below. Use your 'sanitizeInput' helper to
+>>>>>>> 6868a18a3670fc834beef2d1e89b6dd7fe301914
 // clean the user's transmission command before checking it.
 let command = "  ABORT LAUNCH   ";
 let command2 = " Nothing To See Here"
