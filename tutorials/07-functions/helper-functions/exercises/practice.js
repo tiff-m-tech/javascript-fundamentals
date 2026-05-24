@@ -12,18 +12,29 @@
 
 // TODO: Complete the main function below. Use your 'calculateMassInKg' helper 
 // inside the loop to calculate each pod's weight in kilograms.
-function processLogisticsManifest(cargoPodsArray) {
-	console.log("--- Processing Logistics Manifest ---");
-
-	for (let i = 0; i < cargoPodsArray.length; i++) {
-		let massInKg = null;
-		console.log(`Pod #${i + 1}: ${massInKg} kg`);
-	}
-}
 
 let cargoMass = [5, 12, 3.5];
 
+function calculateMassInKg(metricTons) {
+	return metricTons * 1000;
+}
+
+// console.log(calculateMassInKg(5))
+
+function processLogisticsManifest(cargoPodsArray) { 
+
+	console.log("--- Processing Logistics Manifest ---"); 
+	
+	for (let i = 0; i < cargoPodsArray.length; i++) { 
+		let massInKg = calculateMassInKg(cargoPodsArray[i])
+
+		console.log(`Pod #${i + 1}: ${massInKg} kg`); 
+	} 
+}
+
 // TODO: Call your main function and test it with the cargoMass array
+
+processLogisticsManifest(cargoMass)
 
 
 /** EXERCISE 2: COMMUNICATION SCRUBBER **/
@@ -31,10 +42,26 @@ let cargoMass = [5, 12, 3.5];
 // TODO: Create a helper function named 'sanitizeInput'. It should take a string 
 // parameter 'text', remove leading/trailing spaces, and convert it to lowercase.
 
+function sanitizeInput(text) {
+	let trimmedText = text.trim()
+	console.log(trimmedText)
+
+	let toLowerText = trimmedText.toLowerCase()
+	console.log(toLowerText)
+
+	return toLowerText
+}
+
+sanitizeInput("  Sample Text  ")
+
 // TODO: Complete the main function below. Use your 'sanitizeInput' helper to 
 // clean the user's transmission command before checking it.
+let command = "  ABORT LAUNCH   ";
+let command2 = " Nothing To See Here"
+
 function processIncomingTransmission(rawCommand) {
-	let cleanCommand = null;
+	let cleanCommand = sanitizeInput(rawCommand);
+	console.log(cleanCommand)
 
 	if (cleanCommand === "abort launch") {
 		console.log("🚨 EMERGENCY TRANSMISSION VALIDATED: Halting launch sequences.");
@@ -43,6 +70,7 @@ function processIncomingTransmission(rawCommand) {
 	}
 }
 
-let command = "  ABORT LAUNCH   ";
-
 // TODO: Call the main function and test it with the command above.
+
+processIncomingTransmission(command)
+processIncomingTransmission(command2)
