@@ -206,16 +206,16 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 
 ### 9 - More on Functions
 
-| Topics                                   | Code                                                                           | Videos         | Length |
-| :--------------------------------------- | :----------------------------------------------------------------------------- | :------------- | -----: |
-| Arrow Function Syntax                    | [arrow-syntax](/tutorials/09-more-functions/arrow-syntax/)                     | _Coming soon!_ |        |
-| Anonymous Functions                      | [anonymous-functions](/tutorials/09-more-functions/anonymous-functions/)       | _Coming soon!_ |        |
-| Higher-Order Functions                   | [higher-order-functions](/tutorials/09-more-functions/higher-order-functions/) | _Coming soon!_ |        |
-| Special Array Methods: Looping & Mapping | [looping-mapping](/tutorials/09-more-functions/looping-mapping/)               | _Coming soon!_ |        |
-| Special Array Methods: Querying          | [querying](/tutorials/09-more-functions/querying/)                             | _Coming soon!_ |        |
-| Special Array Methods: Reducing          | [reducing](/tutorials/09-more-functions/reducing/)                             | _Coming soon!_ |        |
-| Special Array Methods: Advanced Sorting  | [advanced-sorting](/tutorials/09-more-functions/advanced-sorting/)             | _Coming soon!_ |        |
-|                                          |                                                                                | **TOTAL**      |        |
+| Topics                                   | Code                                                                           | Videos                               | Length |
+| :--------------------------------------- | :----------------------------------------------------------------------------- | :----------------------------------- | -----: |
+| Arrow Function Syntax                    | [arrow-syntax](/tutorials/09-more-functions/arrow-syntax/)                     | [Demo](https://youtu.be/bSDmNGJoo-Q) |   6:42 |
+| Anonymous Functions                      | [anonymous-functions](/tutorials/09-more-functions/anonymous-functions/)       | [Demo](https://youtu.be/kLZEFZ2RfEc) |   6:23 |
+| Higher-Order Functions                   | [higher-order-functions](/tutorials/09-more-functions/higher-order-functions/) | [Demo](https://youtu.be/W0YOW14cyfg) |   8:47 |
+| Special Array Methods: Looping & Mapping | [looping-mapping](/tutorials/09-more-functions/looping-mapping/)               | _Coming soon!_                       |        |
+| Special Array Methods: Querying          | [querying](/tutorials/09-more-functions/querying/)                             | _Coming soon!_                       |        |
+| Special Array Methods: Reducing          | [reducing](/tutorials/09-more-functions/reducing/)                             | _Coming soon!_                       |        |
+| Special Array Methods: Advanced Sorting  | [advanced-sorting](/tutorials/09-more-functions/advanced-sorting/)             | _Coming soon!_                       |        |
+|                                          |                                                                                | **TOTAL**                            |        |
 
 ---
 
