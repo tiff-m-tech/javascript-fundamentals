@@ -18,7 +18,16 @@ let gridShieldCharge = 100;
        gridShieldCharge.
 */
 
-gridShieldCharge.toUpperCase();
+// gridShieldCharge.toUpperCase();
+
+try {
+   gridShieldCharge.toUpperCase()
+} catch (error) {
+   console.log("System bypassed a fatal crash.")
+   gridShieldCharge = 0
+} finally {
+	console.log((`The value for gridSheldChange is: ${gridShieldCharge}`))
+}
 
 /** EXERCISE 2: THE SECURE DEPLOYMENT ENGINE **/
 
@@ -33,3 +42,14 @@ let dockingClampStatus = "LOCKED";
     3. Inside 'finally', update the 'dockingClampStatus' variable to read "MANUAL_OVERRIDE",
        and print a final report on the status of the docking clamp.
 */
+
+try {
+   console.log("Attempting automated separation..." )
+   console.log(synchronousDeploymentStatus)
+} catch (error) {
+   console.log("Separation error caught! Keeping clamps locked.")
+   console.error(errorObj);
+} finally {
+   dockingClampStatus = "MANUAL_OVERRIDE"
+   console.log(`Final report of the status of the docking clamp: ${dockingClampStatus}`)
+}
