@@ -89,34 +89,34 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 
 ### 1 - Basic Syntax
 
-| Topics                                  | Code                                                                           | Videos                               |  Length |
-| --------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------ | ------: |
-| Printing to the Console                 | [printing-to-the-console](/tutorials/01-basic-syntax/printing-to-the-console/) | [Demo](https://youtu.be/setRUjWlPPY) |    6:29 |
-| Declaring & Initializing Variables      | [declaring-variables](/tutorials/01-basic-syntax/declaring-variables/)         | [Demo](https://youtu.be/6itBZ65-D3A) |    6:49 |
-| Assigning Data Types                    | [data-types](/tutorials/01-basic-syntax/data-types/)                           | [Demo](https://youtu.be/QABAPdzfQqA) |    7:16 |
-| Order of Code Execution                 | [code-execution](/tutorials/01-basic-syntax/code-execution/)                   | [Demo](https://youtu.be/qMEOOwXoDEU) |    4:17 |
-| Naming Variables                        | [naming-variables](/tutorials/01-basic-syntax/naming-variables/)               | [Demo](https://youtu.be/M3xjxDgAdBY) |    4:03 |
-| Data Type Conversion: Strings           | [data-type-conversion](/tutorials/01-basic-syntax/data-type-conversion/)       | [Demo](https://youtu.be/bAd9Oug2UGo) |    6:36 |
-| Data Type Conversion: Numbers           | [data-type-conversion](/tutorials/01-basic-syntax/data-type-conversion/)       | [Demo](https://youtu.be/KqDdIMRdoLk) |    7:26 |
-| Data Type Conversion: Booleans          | [data-type-conversion](/tutorials/01-basic-syntax/data-type-conversion/)       | [Demo](https://youtu.be/xTPpM-wQXLc) |    6:52 |
-| Data Type Conversion: Type Coercion     | [data-type-conversion](/tutorials/01-basic-syntax/data-type-conversion/)       | [Demo](https://youtu.be/OA1NSzU0SHs) |    7:49 |
-| Template Literals                       | [template-literals](/tutorials/01-basic-syntax/template-literals/)             | [Demo](https://youtu.be/aomY7Y5khUI) |    7:37 |
-| Constants                               | [constants](/tutorials/01-basic-syntax/constants/)                             | [Demo](https://youtu.be/NDcT4XVbLFo) |    4:27 |
-| Capturing User Input with readline-sync | [user-input](/tutorials/01-basic-syntax/user-input/)                           | [Demo](https://youtu.be/UDFCkM5fAUo) |   11:08 |
-|                                         |                                                                                | TOTAL                                | 1:20:49 |
+| Topics                                  | Code                                                                           | Videos                               |     Length |
+| --------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------ | ---------: |
+| Printing to the Console                 | [printing-to-the-console](/tutorials/01-basic-syntax/printing-to-the-console/) | [Demo](https://youtu.be/setRUjWlPPY) |       6:29 |
+| Declaring & Initializing Variables      | [declaring-variables](/tutorials/01-basic-syntax/declaring-variables/)         | [Demo](https://youtu.be/6itBZ65-D3A) |       6:49 |
+| Assigning Data Types                    | [data-types](/tutorials/01-basic-syntax/data-types/)                           | [Demo](https://youtu.be/QABAPdzfQqA) |       7:16 |
+| Order of Code Execution                 | [code-execution](/tutorials/01-basic-syntax/code-execution/)                   | [Demo](https://youtu.be/qMEOOwXoDEU) |       4:17 |
+| Naming Variables                        | [naming-variables](/tutorials/01-basic-syntax/naming-variables/)               | [Demo](https://youtu.be/M3xjxDgAdBY) |       4:03 |
+| Data Type Conversion: Strings           | [data-type-conversion](/tutorials/01-basic-syntax/data-type-conversion/)       | [Demo](https://youtu.be/bAd9Oug2UGo) |       6:36 |
+| Data Type Conversion: Numbers           | [data-type-conversion](/tutorials/01-basic-syntax/data-type-conversion/)       | [Demo](https://youtu.be/KqDdIMRdoLk) |       7:26 |
+| Data Type Conversion: Booleans          | [data-type-conversion](/tutorials/01-basic-syntax/data-type-conversion/)       | [Demo](https://youtu.be/xTPpM-wQXLc) |       6:52 |
+| Data Type Conversion: Type Coercion     | [data-type-conversion](/tutorials/01-basic-syntax/data-type-conversion/)       | [Demo](https://youtu.be/OA1NSzU0SHs) |       7:49 |
+| Template Literals                       | [template-literals](/tutorials/01-basic-syntax/template-literals/)             | [Demo](https://youtu.be/aomY7Y5khUI) |       7:37 |
+| Constants                               | [constants](/tutorials/01-basic-syntax/constants/)                             | [Demo](https://youtu.be/NDcT4XVbLFo) |       4:27 |
+| Capturing User Input with readline-sync | [user-input](/tutorials/01-basic-syntax/user-input/)                           | [Demo](https://youtu.be/UDFCkM5fAUo) |      11:08 |
+|                                         |                                                                                | **TOTAL**                            | **1:20:4** |
 
 ---
 
 ### 2 - Conditionals
 
-| Topics                        | Code                                                                                     | Videos                               | Length |
-| ----------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------ | -----: |
-| Basic Boolean Expressions     | [basic-boolean-expressions](/tutorials/02-conditionals/basic-boolean-expressions/)       | [Demo](https://youtu.be/C8JBw-Nrgd8) |   6:32 |
-| Compound Boolean Expressions  | [compound-boolean-expressions](/tutorials/02-conditionals/compound-boolean-expressions/) | [Demo](https://youtu.be/9iuuOkLV_UY) |   5:20 |
-| Basic Conditional Statements  | [basic-conditionals](/tutorials//02-conditionals/basic-conditionals/)                    | [Demo](https://youtu.be/QsWtOX6bNZI) |  11:11 |
-| Nested Conditional Statements | [nested-conditionals](/tutorials/02-conditionals/nested-conditionals/)                   | [Demo](https://youtu.be/XhzXDnG06x4) |   7:55 |
-| Ternary Expressions           | [ternary-expressions](/tutorials/02-conditionals/ternary-expressions/)                   | [Demo](https://youtu.be/B8P8RbmmeUg) |   5:19 |
-|                               |                                                                                          | TOTAL                                |  36:17 |
+| Topics                        | Code                                                                                     | Videos                               |    Length |
+| ----------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------ | --------: |
+| Basic Boolean Expressions     | [basic-boolean-expressions](/tutorials/02-conditionals/basic-boolean-expressions/)       | [Demo](https://youtu.be/C8JBw-Nrgd8) |      6:32 |
+| Compound Boolean Expressions  | [compound-boolean-expressions](/tutorials/02-conditionals/compound-boolean-expressions/) | [Demo](https://youtu.be/9iuuOkLV_UY) |      5:20 |
+| Basic Conditional Statements  | [basic-conditionals](/tutorials//02-conditionals/basic-conditionals/)                    | [Demo](https://youtu.be/QsWtOX6bNZI) |     11:11 |
+| Nested Conditional Statements | [nested-conditionals](/tutorials/02-conditionals/nested-conditionals/)                   | [Demo](https://youtu.be/XhzXDnG06x4) |      7:55 |
+| Ternary Expressions           | [ternary-expressions](/tutorials/02-conditionals/ternary-expressions/)                   | [Demo](https://youtu.be/B8P8RbmmeUg) |      5:19 |
+|                               |                                                                                          | **TOTAL**                            | **36:17** |
 
 ---
 
@@ -126,7 +126,8 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 | ----------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------ | -----: |
 | Debugging Syntax and Runtime Errors | [syntax-errors](/tutorials/03-errors-and-debugging/syntax-and-runtime-errors/) | [Demo](https://youtu.be/63hfXRu7sDQ) |   6:48 |
 | Debugging Logic Errors              | [logic-errors](/tutorials/03-errors-and-debugging/logic-errors/)               | [Demo](https://youtu.be/_9iAOWDVpR0) |   4:02 |
-|                                     |                                                                                | TOTAL                                |  10:50 |
+| Exception Handling                  | [exception-handling](/tutorials/03-errors-and-debugging/exception-handling/)   | _Coming soon!_                       |        |
+|                                     |                                                                                | **TOTAL**                            |        |
 
 ---
 
@@ -139,7 +140,7 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 | Common String Methods: Transforming Strings   | [string-methods-transform](/tutorials/04-strings/string-methods-transform/) | [Demo](https://youtu.be/K3KdD3M3eTA) |   4:11 |
 | Common String Methods: Retrieving Substrings  | [string-methods-retrieve](/tutorials/04-strings/string-methods-retrieve/)   | [Demo](https://youtu.be/NkgNjj2a96w) |   5:03 |
 | Method Chaining                               | [method-chaining](/tutorials/04-strings/method-chaining/)                   | [Demo](https://youtu.be/C6q0YFZzM9o) |   4:14 |
-|                                               |                                                                             | TOTAL                                |  23:38 |
+|                                               |                                                                             | **TOTAL**                                |  **23:38** |
 
 ---
 
@@ -156,7 +157,7 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 | Common Array Methods: Sorting & Reversing Elements    | [array-methods-sort-reverse](/tutorials/05-arrays/array-methods-sort-reverse/)       | [Demo](https://youtu.be/eDarMuePJEU) |   2:56 |
 | Converting Between Strings & Arrays                   | [array-string-conversion](/tutorials/05-arrays/array-string-conversion/)             | [Demo](https://youtu.be/s2x0N54wO0I) |   5:46 |
 | Multi-Dimensional Arrays                              | [multi-dimensional-arrays](/tutorials/05-arrays/multi-dimensional-arrays/)           | [Demo](https://youtu.be/m3JBINRAMWE) |   6:01 |
-|                                                       |                                                                                      | **TOTAL**                            |  43:14 |
+|                                                       |                                                                                      | **TOTAL**                            |  **43:14** |
 
 ---
 
@@ -206,16 +207,16 @@ This particular collection of coding exercises focuses solely on JavaScript (occ
 
 ### 9 - More on Functions
 
-| Topics                                   | Code                                                                           | Videos         | Length |
-| :--------------------------------------- | :----------------------------------------------------------------------------- | :------------- | -----: |
-| Arrow Function Syntax                    | [arrow-syntax](/tutorials/09-more-functions/arrow-syntax/)                     | _Coming soon!_ |        |
-| Anonymous Functions                      | [anonymous-functions](/tutorials/09-more-functions/anonymous-functions/)       | _Coming soon!_ |        |
-| Higher-Order Functions                   | [higher-order-functions](/tutorials/09-more-functions/higher-order-functions/) | _Coming soon!_ |        |
-| Special Array Methods: Looping & Mapping | [looping-mapping](/tutorials/09-more-functions/looping-mapping/)               | _Coming soon!_ |        |
-| Special Array Methods: Querying          | [querying](/tutorials/09-more-functions/querying/)                             | _Coming soon!_ |        |
-| Special Array Methods: Reducing          | [reducing](/tutorials/09-more-functions/reducing/)                             | _Coming soon!_ |        |
-| Special Array Methods: Advanced Sorting  | [advanced-sorting](/tutorials/09-more-functions/advanced-sorting/)             | _Coming soon!_ |        |
-|                                          |                                                                                | **TOTAL**      |        |
+| Topics                                   | Code                                                                           | Videos                               | Length |
+| :--------------------------------------- | :----------------------------------------------------------------------------- | :----------------------------------- | -----: |
+| Arrow Function Syntax                    | [arrow-syntax](/tutorials/09-more-functions/arrow-syntax/)                     | [Demo](https://youtu.be/bSDmNGJoo-Q) |   6:42 |
+| Anonymous Functions                      | [anonymous-functions](/tutorials/09-more-functions/anonymous-functions/)       | [Demo](https://youtu.be/kLZEFZ2RfEc) |   6:23 |
+| Higher-Order Functions                   | [higher-order-functions](/tutorials/09-more-functions/higher-order-functions/) | [Demo](https://youtu.be/W0YOW14cyfg) |   8:47 |
+| Special Array Methods: Looping & Mapping | [looping-mapping](/tutorials/09-more-functions/looping-mapping/)               | [Demo](https://youtu.be/Lr4gNBg3mGQ) |   4:44 |
+| Special Array Methods: Querying          | [querying](/tutorials/09-more-functions/querying/)                             | [Demo](https://youtu.be/7MyWPOuFH6M) |   4:42 |
+| Special Array Methods: Reducing          | [reducing](/tutorials/09-more-functions/reducing/)                             | [Demo](https://youtu.be/tOANZ51UMdI) |   5:16 |
+| Special Array Methods: Advanced Sorting  | [advanced-sorting](/tutorials/09-more-functions/advanced-sorting/)             | [Demo](https://youtu.be/DkI12Vr7gdI) |   5:40 |
+|                                          |                                                                                | **TOTAL**                            |  **40:34** |
 
 ---
 

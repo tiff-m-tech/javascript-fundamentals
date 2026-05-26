@@ -25,9 +25,9 @@ const sectorWaterRationsTons = [45, 12, 88, 34, 50];
 
 // Goal: Add all these individual shipment values together into one sum total
 // 0 is passed at the very end as our explicit Initial Value starting point
-const totalWaterReserves = sectorWaterRationsTons.reduce((accumulator, currentVal) => {
+const totalWaterReserves = sectorWaterRationsTons.reduce((acc, current) => {
 	// We add the current item to our rolling total and return it to the next step
-	return accumulator + currentVal;
+	return acc + current;
 }, 0);
 
 console.log(`Aggregate Regional Water Supply: ${totalWaterReserves} tons.`);
@@ -42,9 +42,9 @@ const crewManifest = [
 ];
 
 // Calculate total life support logistics by pooling food numbers out of object keys
-const totalDailyShipBurn = crewManifest.reduce((acc, member) => {
+const totalDailyRationsNeeded = crewManifest.reduce((acc, member) => {
 	// acc represents the rolling calories sum; member represents the current object instance
 	return acc + member.dailyCalorieRequirement;
 }, 0); // Always declare your initial state (0) when counting object attributes!
 
-console.log(`Total Vessel Daily Ration Depletion: ${totalDailyShipBurn} kcal.`);
+console.log(`Total Vessel Daily Ration Depletion: ${totalDailyRationsNeeded} kcal.`);

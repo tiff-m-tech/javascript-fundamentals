@@ -38,7 +38,7 @@ console.log("Initializing countdown sequence... 3... 2... 1...");
 // We call JavaScript's built-in timer tool, setTimeout(), which takes two arguments:
 //  - Argument 1: The name of a function (or a definition), to be called after...
 //  - Argument 2: The delay time in milliseconds (e.g., 3000ms = 3s).
-setTimeout(blastOff, 3000);
+setTimeout(blastOff, 5000); // Will arrive 2 seconds after the one below
 
 // Now, we replace blastOff with a truly anonymous, single-use function instead
-setTimeout(() => console.log("🚀 Blastoff! Capsule has cleared the launchpad."), 3000);
+setTimeout(() => console.log("🚀 We have liftoff! Capsule has cleared the launchpad."), 3000);

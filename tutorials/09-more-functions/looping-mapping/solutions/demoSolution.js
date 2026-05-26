@@ -51,5 +51,5 @@ const restockedSatellites = defenseSatellites.map(satellite => {
 });
 
 // Original data remains unmutated and pristine!
-console.log("\nOriginal Battery 2 Ammo:", defenseSatellites[1].ammoCount); // Output: 0
-console.log("Restocked Battery 2 Ammo:", restockedSatellites[1].ammoCount); // Output: 100
+console.log("\nOriginal Battery 3 Ammo:", defenseSatellites[2].ammoCount); // Output: 85
+console.log("Restocked Battery 3 Ammo:", restockedSatellites[2].ammoCount); // Output: 100

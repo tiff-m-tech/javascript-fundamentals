@@ -19,7 +19,7 @@ const defenseSatellites = [
 // DEMO: Use .map() to create a new array with a copy of all objects, updating
 // the ammoCount property to 100 for each object.
 
-// DEMO: Print the ammoCount property of the second element in both arrays
+// DEMO: Print the ammoCount property of the third element in both arrays
 
 // DEMO: Make a git commit!
 

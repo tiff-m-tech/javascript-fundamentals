@@ -35,12 +35,12 @@ const structuralStressTolerances = [8, 105, 22, 1000, 4];
 
 // WRONG: Default sorting treats these numbers like strings ("1000" comes before "22")
 const brokenStringSort = [...structuralStressTolerances].sort();
-console.log("⚠️ Broken String-Based Numeric Sort:", brokenStringSort); // not sorted
+console.log(brokenStringSort); // not sorted
 
 // CORRECT: Using an inline numeric comparator subtraction engine
 // (a - b) evaluates to a negative number if 'a' is smaller, sorting it to the left
 const cleanAscendingSort = [...structuralStressTolerances].sort((a, b) => a - b);
-console.log("✅ Fixed Ascending Numeric Sort:", cleanAscendingSort); // sorted
+console.log(cleanAscendingSort); // sorted
 
 /** EXAMPLE 2 - SORTING AN OBJECT MATRIX BY KEYS **/
 

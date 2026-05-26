@@ -40,7 +40,7 @@ const blockArrowCalculateFuel = mass => {
 const conciseCalculateFuel = mass => mass * 11.2;
 
 // Invoking the concise arrow function
-console.log(`Implicit Return Fuel Calculation: ${conciseCalculateFuel(100)} t`);
+console.log(`Implicit Return Fuel Calculation: ${conciseCalculateFuel(100)}t`);
 
 /** EXAMPLE 2 - THE HOISTING PARADOX **/
 
@@ -58,4 +58,4 @@ function readTraditionalSensor() {
 const readArrowSensor = () => "Telemetry Active";
 
 // Correct execution order requires calling the arrow constant AFTER it is written:
-console.log(`Arrow Probe Reading (Correct Order): ${readArrowSensor()}`);
+console.log(`Arrow Probe Reading: ${readArrowSensor()}`);
